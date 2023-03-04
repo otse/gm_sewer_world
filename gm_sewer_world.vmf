@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9573"
-	"mapversion" "4455"
+	"mapversion" "4456"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "4455"
+	"mapversion" "4456"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -35782,7 +35782,7 @@ entity
 			"id" "81974"
 			"plane" "(-776 1824 0) (-776 2240 0) (-776 2240 228)"
 			"material" "CONCRETE/CONCRETEWALL047C"
-			"uaxis" "[0 1 0 -288] 0.25"
+			"uaxis" "[0 1 0 -287] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "2"
