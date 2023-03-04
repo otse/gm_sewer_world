@@ -1,0 +1,7 @@
+gm dystopian sewer world
+
+reload_legacy_addons
+
+set foot underground in an abandoned dystopian sewer world.
+
+storms ravage the surface on this serwer world. eplore a dark underground network of interconnecting areas.
