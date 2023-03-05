@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "sewer world/garbage_reclamation"
+	"$translucent" 1
+	$decal 1
+	$decalscale 0.1
+}

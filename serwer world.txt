@@ -5,3 +5,11 @@ reload_legacy_addons
 set foot underground in an abandoned dystopian sewer world.
 
 storms ravage the surface on this serwer world. eplore a dark underground network of interconnecting areas.
+
+useful areas in a garbage hub:
+personnel
+monitoring
+various storage
+machine hub
+garbage hub
+garbage reclamation
