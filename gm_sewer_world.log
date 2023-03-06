@@ -8226,3 +8226,2480 @@ Level flags = 0
 Total triangle count: 13967
 Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
 12 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 280 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (399333 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1458 texinfos to 858
+Reduced 37 texdatas to 30 (1049 bytes to 811)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+reading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.prt
+ 186 portalclusters
+ 841 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 8 visible clusters (0.02%)
+Total clusters visible: 33718
+Average clusters visible: 181
+Building PAS...
+Average clusters audible: 186
+visdatasize:10427  compressed from 8928
+writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+51 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+4977 faces
+7 degenerate faces
+393748 square feet [56699832.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+4970 patches before subdivision
+Zero area child patch at around -167.269714 1629.963623 590.000000
+322562 patches after subdivision
+32 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 70144087, max 1407
+transfer lists: 535.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(27585, 32640, 40010)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5432, 6314, 7413)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1345, 1535, 1814)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(384, 434, 516)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(119, 134, 158)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(38, 43, 50)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(13, 14, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 5, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0503 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/4096          720/196608   ( 0.4%) 
+brushes                638/16384        7656/196608   ( 3.9%) 
+brushsides            5499/163840      43992/1310720  ( 3.4%) 
+planes                7158/65536      143160/1310720  (10.9%) 
+vertexes              7758/65536       93096/786432   (11.8%) 
+nodes                 1237/65536       39584/2097152  ( 1.9%) 
+texinfos               858/12288       61776/884736   ( 7.0%) 
+texdata                 30/2048          960/65536    ( 1.5%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       24715/0           24715/0        ( 0.0%) 
+faces                 4977/65536      278712/3670016  ( 7.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1690/65536       94640/3670016  ( 2.6%) 
+leaves                1253/65536       40096/2097152  ( 1.9%) 
+leaffaces             6340/65536       12680/131072   ( 9.7%) 
+leafbrushes           1567/65536        3134/131072   ( 2.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            31327/512000     125308/2048000  ( 6.1%) 
+edges                17917/256000      71668/1024000  ( 7.0%) 
+LDR worldlights         32/8192         2816/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            724/32768        7240/327680   ( 2.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13515/65536       27030/131072   (20.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]    11921260/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       10427/16777216 ( 0.1%) 
+entdata               [variable]       51481/393216   (13.1%) 
+LDR ambient table     1253/65536        5012/262144   ( 1.9%) 
+HDR ambient table     1253/65536        5012/262144   ( 1.9%) 
+LDR leaf ambient      1734/65536       48552/1835008  ( 2.6%) 
+HDR leaf ambient      1253/65536       35084/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2440     ( 0.0%) 
+pakfile               [variable]      174982/0        ( 0.0%) 
+physics               [variable]      399333/4194304  ( 9.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 14681
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+32 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+4977 faces
+7 degenerate faces
+393748 square feet [56699832.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+4970 patches before subdivision
+Zero area child patch at around -167.269714 1629.963623 590.000000
+322562 patches after subdivision
+32 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 70144087, max 1407
+transfer lists: 535.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(27585, 32640, 40010)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5432, 6314, 7413)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1345, 1535, 1814)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(384, 434, 516)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(119, 134, 158)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(38, 43, 50)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(13, 14, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 5, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0550 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/4096          720/196608   ( 0.4%) 
+brushes                638/16384        7656/196608   ( 3.9%) 
+brushsides            5499/163840      43992/1310720  ( 3.4%) 
+planes                7158/65536      143160/1310720  (10.9%) 
+vertexes              7758/65536       93096/786432   (11.8%) 
+nodes                 1237/65536       39584/2097152  ( 1.9%) 
+texinfos               858/12288       61776/884736   ( 7.0%) 
+texdata                 30/2048          960/65536    ( 1.5%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       24715/0           24715/0        ( 0.0%) 
+faces                 4977/65536      278712/3670016  ( 7.6%) 
+hdr faces             4977/65536      278712/3670016  ( 7.6%) 
+origfaces             1690/65536       94640/3670016  ( 2.6%) 
+leaves                1253/65536       40096/2097152  ( 1.9%) 
+leaffaces             6340/65536       12680/131072   ( 9.7%) 
+leafbrushes           1567/65536        3134/131072   ( 2.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            31327/512000     125308/2048000  ( 6.1%) 
+edges                17917/256000      71668/1024000  ( 7.0%) 
+LDR worldlights         32/8192         2816/720896   ( 0.4%) 
+HDR worldlights         32/8192         2816/720896   ( 0.4%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            724/32768        7240/327680   ( 2.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13515/65536       27030/131072   (20.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]    11921260/0        ( 0.0%) 
+HDR lightdata         [variable]    11921260/0        ( 0.0%) 
+visdata               [variable]       10427/16777216 ( 0.1%) 
+entdata               [variable]       51481/393216   (13.1%) 
+LDR ambient table     1253/65536        5012/262144   ( 1.9%) 
+HDR ambient table     1253/65536        5012/262144   ( 1.9%) 
+LDR leaf ambient      1734/65536       48552/1835008  ( 2.6%) 
+HDR leaf ambient      1734/65536       48552/1835008  ( 2.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2440     ( 0.0%) 
+pakfile               [variable]      174982/0        ( 0.0%) 
+physics               [variable]      399333/4194304  ( 9.5%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 14681
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+31 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413793 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1529 texinfos to 894
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5347 faces
+7 degenerate faces
+397028 square feet [57172048.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0419 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                679/16384        8148/196608   ( 4.1%) 
+brushsides            5749/163840      45992/1310720  ( 3.5%) 
+planes                7218/65536      144360/1310720  (11.0%) 
+vertexes              8303/65536       99636/786432   (12.7%) 
+nodes                 1241/65536       39712/2097152  ( 1.9%) 
+texinfos               894/12288       64368/884736   ( 7.3%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       24715/0           24715/0        ( 0.0%) 
+faces                 5347/65536      299432/3670016  ( 8.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1752/65536       98112/3670016  ( 2.7%) 
+leaves                1259/65536       40288/2097152  ( 1.9%) 
+leaffaces             6756/65536       13512/131072   (10.3%) 
+leafbrushes           1591/65536        3182/131072   ( 2.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            33223/512000     132892/2048000  ( 6.5%) 
+edges                19028/256000      76112/1024000  ( 7.4%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            739/32768        7390/327680   ( 2.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13914/65536       27828/131072   (21.2%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]    12959996/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       53259/393216   (13.5%) 
+LDR ambient table     1259/65536        5036/262144   ( 1.9%) 
+HDR ambient table     1259/65536        5036/262144   ( 1.9%) 
+LDR leaf ambient      1811/65536       50708/1835008  ( 2.8%) 
+HDR leaf ambient      1259/65536       35252/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2438     ( 0.0%) 
+pakfile               [variable]      174982/0        ( 0.0%) 
+physics               [variable]      413793/4194304  ( 9.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 15589
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+11 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5347 faces
+7 degenerate faces
+397028 square feet [57172048.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0428 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                679/16384        8148/196608   ( 4.1%) 
+brushsides            5749/163840      45992/1310720  ( 3.5%) 
+planes                7218/65536      144360/1310720  (11.0%) 
+vertexes              8303/65536       99636/786432   (12.7%) 
+nodes                 1241/65536       39712/2097152  ( 1.9%) 
+texinfos               894/12288       64368/884736   ( 7.3%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       24715/0           24715/0        ( 0.0%) 
+faces                 5347/65536      299432/3670016  ( 8.2%) 
+hdr faces             5347/65536      299432/3670016  ( 8.2%) 
+origfaces             1752/65536       98112/3670016  ( 2.7%) 
+leaves                1259/65536       40288/2097152  ( 1.9%) 
+leaffaces             6756/65536       13512/131072   (10.3%) 
+leafbrushes           1591/65536        3182/131072   ( 2.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            33223/512000     132892/2048000  ( 6.5%) 
+edges                19028/256000      76112/1024000  ( 7.4%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights         33/8192         2904/720896   ( 0.4%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            739/32768        7390/327680   ( 2.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13914/65536       27828/131072   (21.2%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]    12959996/0        ( 0.0%) 
+HDR lightdata         [variable]    12959996/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       53259/393216   (13.5%) 
+LDR ambient table     1259/65536        5036/262144   ( 1.9%) 
+HDR ambient table     1259/65536        5036/262144   ( 1.9%) 
+LDR leaf ambient      1811/65536       50708/1835008  ( 2.8%) 
+HDR leaf ambient      1811/65536       50708/1835008  ( 2.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2438     ( 0.0%) 
+pakfile               [variable]      174982/0        ( 0.0%) 
+physics               [variable]      413793/4194304  ( 9.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 15589
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+12 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413793 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1529 texinfos to 894
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413793 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1529 texinfos to 894
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413793 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1529 texinfos to 894
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413793 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1529 texinfos to 894
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413793 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1529 texinfos to 894
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413793 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1529 texinfos to 894
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413793 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1529 texinfos to 894
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413793 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1533 texinfos to 897
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413793 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1533 texinfos to 897
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413793 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1533 texinfos to 897
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413793 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1533 texinfos to 897
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (414890 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1549 texinfos to 904
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (414890 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1549 texinfos to 904
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (414890 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1549 texinfos to 904
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (414890 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1549 texinfos to 904
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (414890 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1549 texinfos to 904
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (414890 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1549 texinfos to 904
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (414890 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1549 texinfos to 904
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (414890 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1549 texinfos to 904
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (414890 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1549 texinfos to 904
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (414890 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1549 texinfos to 904
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (414890 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1549 texinfos to 904
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (414890 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1549 texinfos to 904
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (414890 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1549 texinfos to 904
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (414890 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1549 texinfos to 904
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413793 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1533 texinfos to 897
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5353 faces
+7 degenerate faces
+397201 square feet [57197016.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0434 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                679/16384        8148/196608   ( 4.1%) 
+brushsides            5749/163840      45992/1310720  ( 3.5%) 
+planes                7222/65536      144440/1310720  (11.0%) 
+vertexes              8310/65536       99720/786432   (12.7%) 
+nodes                 1241/65536       39712/2097152  ( 1.9%) 
+texinfos               897/12288       64584/884736   ( 7.3%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       24715/0           24715/0        ( 0.0%) 
+faces                 5353/65536      299768/3670016  ( 8.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1752/65536       98112/3670016  ( 2.7%) 
+leaves                1259/65536       40288/2097152  ( 1.9%) 
+leaffaces             6758/65536       13516/131072   (10.3%) 
+leafbrushes           1591/65536        3182/131072   ( 2.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            33251/512000     133004/2048000  ( 6.5%) 
+edges                19042/256000      76168/1024000  ( 7.4%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            739/32768        7390/327680   ( 2.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13914/65536       27828/131072   (21.2%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]    12987860/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       52678/393216   (13.4%) 
+LDR ambient table     1259/65536        5036/262144   ( 1.9%) 
+HDR ambient table     1259/65536        5036/262144   ( 1.9%) 
+LDR leaf ambient      1822/65536       51016/1835008  ( 2.8%) 
+HDR leaf ambient      1259/65536       35252/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2438     ( 0.0%) 
+pakfile               [variable]      174982/0        ( 0.0%) 
+physics               [variable]      413793/4194304  ( 9.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 15605
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+11 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5353 faces
+7 degenerate faces
+397201 square feet [57197016.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+33 direct lights
+0
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 282 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413793 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1533 texinfos to 897
+Reduced 37 texdatas to 31 (1049 bytes to 837)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5353 faces
+7 degenerate faces
+397201 square feet [57197016.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0420 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                679/16384        8148/196608   ( 4.1%) 
+brushsides            5749/163840      45992/1310720  ( 3.5%) 
+planes                7222/65536      144440/1310720  (11.0%) 
+vertexes              8310/65536       99720/786432   (12.7%) 
+nodes                 1241/65536       39712/2097152  ( 1.9%) 
+texinfos               897/12288       64584/884736   ( 7.3%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       24715/0           24715/0        ( 0.0%) 
+faces                 5353/65536      299768/3670016  ( 8.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1752/65536       98112/3670016  ( 2.7%) 
+leaves                1259/65536       40288/2097152  ( 1.9%) 
+leaffaces             6758/65536       13516/131072   (10.3%) 
+leafbrushes           1591/65536        3182/131072   ( 2.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            33251/512000     133004/2048000  ( 6.5%) 
+edges                19042/256000      76168/1024000  ( 7.4%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            739/32768        7390/327680   ( 2.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13914/65536       27828/131072   (21.2%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]    12987860/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       52678/393216   (13.4%) 
+LDR ambient table     1259/65536        5036/262144   ( 1.9%) 
+HDR ambient table     1259/65536        5036/262144   ( 1.9%) 
+LDR leaf ambient      1822/65536       51016/1835008  ( 2.8%) 
+HDR leaf ambient      1259/65536       35252/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2438     ( 0.0%) 
+pakfile               [variable]      174982/0        ( 0.0%) 
+physics               [variable]      413793/4194304  ( 9.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 15605
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+11 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5353 faces
+7 degenerate faces
+397201 square feet [57197016.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0426 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                679/16384        8148/196608   ( 4.1%) 
+brushsides            5749/163840      45992/1310720  ( 3.5%) 
+planes                7222/65536      144440/1310720  (11.0%) 
+vertexes              8310/65536       99720/786432   (12.7%) 
+nodes                 1241/65536       39712/2097152  ( 1.9%) 
+texinfos               897/12288       64584/884736   ( 7.3%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       24715/0           24715/0        ( 0.0%) 
+faces                 5353/65536      299768/3670016  ( 8.2%) 
+hdr faces             5353/65536      299768/3670016  ( 8.2%) 
+origfaces             1752/65536       98112/3670016  ( 2.7%) 
+leaves                1259/65536       40288/2097152  ( 1.9%) 
+leaffaces             6758/65536       13516/131072   (10.3%) 
+leafbrushes           1591/65536        3182/131072   ( 2.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            33251/512000     133004/2048000  ( 6.5%) 
+edges                19042/256000      76168/1024000  ( 7.4%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights         33/8192         2904/720896   ( 0.4%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            739/32768        7390/327680   ( 2.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13914/65536       27828/131072   (21.2%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]    12987860/0        ( 0.0%) 
+HDR lightdata         [variable]    12987860/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       52678/393216   (13.4%) 
+LDR ambient table     1259/65536        5036/262144   ( 1.9%) 
+HDR ambient table     1259/65536        5036/262144   ( 1.9%) 
+LDR leaf ambient      1822/65536       51016/1835008  ( 2.8%) 
+HDR leaf ambient      1822/65536       51016/1835008  ( 2.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2438     ( 0.0%) 
+pakfile               [variable]      174982/0        ( 0.0%) 
+physics               [variable]      413793/4194304  ( 9.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 15605
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+11 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 268 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413107 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1518 texinfos to 883
+Reduced 38 texdatas to 31 (1102 bytes to 870)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5561 faces
+7 degenerate faces
+403243 square feet [58067008.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0455 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                677/16384        8124/196608   ( 4.1%) 
+brushsides            5730/163840      45840/1310720  ( 3.5%) 
+planes                7216/65536      144320/1310720  (11.0%) 
+vertexes              8587/65536      103044/786432   (13.1%) 
+nodes                 1228/65536       39296/2097152  ( 1.9%) 
+texinfos               883/12288       63576/884736   ( 7.2%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       24715/0           24715/0        ( 0.0%) 
+faces                 5561/65536      311416/3670016  ( 8.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1744/65536       97664/3670016  ( 2.7%) 
+leaves                1246/65536       39872/2097152  ( 1.9%) 
+leaffaces             6631/65536       13262/131072   (10.1%) 
+leafbrushes           1509/65536        3018/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34004/512000     136016/2048000  ( 6.6%) 
+edges                19424/256000      77696/1024000  ( 7.6%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            754/32768        7540/327680   ( 2.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         14151/65536       28302/131072   (21.6%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]    15937336/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       52677/393216   (13.4%) 
+LDR ambient table     1246/65536        4984/262144   ( 1.9%) 
+HDR ambient table     1246/65536        4984/262144   ( 1.9%) 
+LDR leaf ambient      1680/65536       47040/1835008  ( 2.6%) 
+HDR leaf ambient      1246/65536       34888/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2442     ( 0.0%) 
+pakfile               [variable]      175324/0        ( 0.0%) 
+physics               [variable]      413107/4194304  ( 9.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 15974
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+11 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5561 faces
+7 degenerate faces
+403243 square feet [58067008.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+33 direct lights
+0
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 278 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (411283 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1518 texinfos to 880
+Reduced 38 texdatas to 31 (1102 bytes to 870)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5648 faces
+7 degenerate faces
+407069 square feet [58617976.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+33 direct lights
+0
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 278 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (411283 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1518 texinfos to 880
+Reduced 38 texdatas to 31 (1102 bytes to 870)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5648 faces
+7 degenerate faces
+407069 square feet [58617976.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+33 direct lights
+0
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 278 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (411283 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1518 texinfos to 880
+Reduced 38 texdatas to 31 (1102 bytes to 870)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5648 faces
+7 degenerate faces
+407069 square feet [58617976.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+33 direct lights
+0
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 278 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (411283 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1518 texinfos to 880
+Reduced 38 texdatas to 31 (1102 bytes to 870)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5648 faces
+7 degenerate faces
+407069 square feet [58617976.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0480 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                677/16384        8124/196608   ( 4.1%) 
+brushsides            5730/163840      45840/1310720  ( 3.5%) 
+planes                7218/65536      144360/1310720  (11.0%) 
+vertexes              8754/65536      105048/786432   (13.4%) 
+nodes                 1228/65536       39296/2097152  ( 1.9%) 
+texinfos               880/12288       63360/884736   ( 7.2%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       24715/0           24715/0        ( 0.0%) 
+faces                 5648/65536      316288/3670016  ( 8.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1732/65536       96992/3670016  ( 2.6%) 
+leaves                1246/65536       39872/2097152  ( 1.9%) 
+leaffaces             6794/65536       13588/131072   (10.4%) 
+leafbrushes           1513/65536        3026/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34210/512000     136840/2048000  ( 6.7%) 
+edges                19607/256000      78428/1024000  ( 7.7%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            705/32768        7050/327680   ( 2.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13332/65536       26664/131072   (20.3%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]    16460128/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       52677/393216   (13.4%) 
+LDR ambient table     1246/65536        4984/262144   ( 1.9%) 
+HDR ambient table     1246/65536        4984/262144   ( 1.9%) 
+LDR leaf ambient      1684/65536       47152/1835008  ( 2.6%) 
+HDR leaf ambient      1246/65536       34888/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2442     ( 0.0%) 
+pakfile               [variable]      175324/0        ( 0.0%) 
+physics               [variable]      411283/4194304  ( 9.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 16051
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+11 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5648 faces
+7 degenerate faces
+407069 square feet [58617976.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0483 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                677/16384        8124/196608   ( 4.1%) 
+brushsides            5730/163840      45840/1310720  ( 3.5%) 
+planes                7218/65536      144360/1310720  (11.0%) 
+vertexes              8754/65536      105048/786432   (13.4%) 
+nodes                 1228/65536       39296/2097152  ( 1.9%) 
+texinfos               880/12288       63360/884736   ( 7.2%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       24715/0           24715/0        ( 0.0%) 
+faces                 5648/65536      316288/3670016  ( 8.6%) 
+hdr faces             5648/65536      316288/3670016  ( 8.6%) 
+origfaces             1732/65536       96992/3670016  ( 2.6%) 
+leaves                1246/65536       39872/2097152  ( 1.9%) 
+leaffaces             6794/65536       13588/131072   (10.4%) 
+leafbrushes           1513/65536        3026/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34210/512000     136840/2048000  ( 6.7%) 
+edges                19607/256000      78428/1024000  ( 7.7%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights         33/8192         2904/720896   ( 0.4%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            705/32768        7050/327680   ( 2.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13332/65536       26664/131072   (20.3%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]    16460128/0        ( 0.0%) 
+HDR lightdata         [variable]    16460128/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       52677/393216   (13.4%) 
+LDR ambient table     1246/65536        4984/262144   ( 1.9%) 
+HDR ambient table     1246/65536        4984/262144   ( 1.9%) 
+LDR leaf ambient      1684/65536       47152/1835008  ( 2.6%) 
+HDR leaf ambient      1684/65536       47152/1835008  ( 2.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2442     ( 0.0%) 
+pakfile               [variable]      175324/0        ( 0.0%) 
+physics               [variable]      411283/4194304  ( 9.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 16051
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+12 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 274 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (413043 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1518 texinfos to 884
+Reduced 38 texdatas to 31 (1102 bytes to 870)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5769 faces
+7 degenerate faces
+407870 square feet [58733344.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0499 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                677/16384        8124/196608   ( 4.1%) 
+brushsides            5730/163840      45840/1310720  ( 3.5%) 
+planes                7214/65536      144280/1310720  (11.0%) 
+vertexes              8852/65536      106224/786432   (13.5%) 
+nodes                 1229/65536       39328/2097152  ( 1.9%) 
+texinfos               884/12288       63648/884736   ( 7.2%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       24715/0           24715/0        ( 0.0%) 
+faces                 5769/65536      323064/3670016  ( 8.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1746/65536       97776/3670016  ( 2.7%) 
+leaves                1247/65536       39904/2097152  ( 1.9%) 
+leaffaces             7029/65536       14058/131072   (10.7%) 
+leafbrushes           1537/65536        3074/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34958/512000     139832/2048000  ( 6.8%) 
+edges                19908/256000      79632/1024000  ( 7.8%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            775/32768        7750/327680   ( 2.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         14433/65536       28866/131072   (22.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]    16608620/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       52677/393216   (13.4%) 
+LDR ambient table     1247/65536        4988/262144   ( 1.9%) 
+HDR ambient table     1247/65536        4988/262144   ( 1.9%) 
+LDR leaf ambient      1703/65536       47684/1835008  ( 2.6%) 
+HDR leaf ambient      1247/65536       34916/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2442     ( 0.0%) 
+pakfile               [variable]      175324/0        ( 0.0%) 
+physics               [variable]      413043/4194304  ( 9.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 16504
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+12 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5769 faces
+7 degenerate faces
+407870 square feet [58733344.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+33 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0521 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                677/16384        8124/196608   ( 4.1%) 
+brushsides            5730/163840      45840/1310720  ( 3.5%) 
+planes                7214/65536      144280/1310720  (11.0%) 
+vertexes              8852/65536      106224/786432   (13.5%) 
+nodes                 1229/65536       39328/2097152  ( 1.9%) 
+texinfos               884/12288       63648/884736   ( 7.2%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       24715/0           24715/0        ( 0.0%) 
+faces                 5769/65536      323064/3670016  ( 8.8%) 
+hdr faces             5769/65536      323064/3670016  ( 8.8%) 
+origfaces             1746/65536       97776/3670016  ( 2.7%) 
+leaves                1247/65536       39904/2097152  ( 1.9%) 
+leaffaces             7029/65536       14058/131072   (10.7%) 
+leafbrushes           1537/65536        3074/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34958/512000     139832/2048000  ( 6.8%) 
+edges                19908/256000      79632/1024000  ( 7.8%) 
+LDR worldlights         33/8192         2904/720896   ( 0.4%) 
+HDR worldlights         33/8192         2904/720896   ( 0.4%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            775/32768        7750/327680   ( 2.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         14433/65536       28866/131072   (22.0%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]    16608620/0        ( 0.0%) 
+HDR lightdata         [variable]    16608620/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       52677/393216   (13.4%) 
+LDR ambient table     1247/65536        4988/262144   ( 1.9%) 
+HDR ambient table     1247/65536        4988/262144   ( 1.9%) 
+LDR leaf ambient      1703/65536       47684/1835008  ( 2.6%) 
+HDR leaf ambient      1703/65536       47684/1835008  ( 2.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2442     ( 0.0%) 
+pakfile               [variable]      175324/0        ( 0.0%) 
+physics               [variable]      413043/4194304  ( 9.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 16504
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+14 seconds elapsed
