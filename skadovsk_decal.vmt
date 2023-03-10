@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sewer world/skadovsk"
+	"$translucent" 1
+	$selfillum 1
+	$selfillummask "sewer world/skadovsk"
+	$decal 1
+	$decalscale 0.075
+}
