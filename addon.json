@@ -1,0 +1,11 @@
+{
+	"title"		:	"GM Sewer World",
+	"type"		:	"map",
+	"tags"		:	[ "build", "scenic" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*"
+	]
+}
