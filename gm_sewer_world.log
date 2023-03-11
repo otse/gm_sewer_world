@@ -2402,3 +2402,981 @@ Level flags = 0
 Total triangle count: 15390
 Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
 9 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+material "sewer world/lamp1" not found.
+Material not found!: SEWER WORLD/LAMP1
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+material "sewer world/button_green" not found.
+Material not found!: SEWER WORLD/BUTTON_GREEN
+material "sewer world/fusebox1" not found.
+Material not found!: SEWER WORLD/FUSEBOX1
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 738 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Brush 919256: WARNING, microbrush
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-0.3 0.2 -15.1)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 976942: 
+
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (540650 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2327 texinfos to 1478
+Reduced 52 texdatas to 42 (1527 bytes to 1159)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+1 second elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+reading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.prt
+ 529 portalclusters
+1400 numportals
+0...1...2...3...4...5...6...7...8...9...100
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5561 faces
+6 degenerate faces
+11431117 square feet [1646080896.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+94 direct lights
+0
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 740 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Brush 919256: WARNING, microbrush
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-0.3 0.2 -15.1)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 976942: 
+
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (540682 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2327 texinfos to 1472
+Reduced 52 texdatas to 42 (1527 bytes to 1159)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+reading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.prt
+ 466 portalclusters
+1076 numportals
+0...1...2...3...4...5...6...7...8...9...100
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+No vis information, direct lighting only.
+5524 faces
+6 degenerate faces
+11430373 square feet [1645973632.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+94 direct lights
+0
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 748 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Brush 919256: WARNING, microbrush
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-0.3 0.2 -15.1)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 976942: 
+
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (540682 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2327 texinfos to 1472
+Reduced 52 texdatas to 42 (1527 bytes to 1159)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+reading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.prt
+ 437 portalclusters
+ 917 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 190965
+Average clusters visible: 436
+Building PAS...
+Average clusters audible: 437
+visdatasize:51570  compressed from 48944
+writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+47 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+5511 faces
+6 degenerate faces
+11430460 square feet [1645986176.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+5505 patches before subdivision
+Zero area child patch at around -167.280884 1629.960449 797.000000
+Zero area child patch at around -152.321457 1633.264648 797.000000
+Zero area child patch at around -294.564667 1650.890625 797.000000
+Zero area child patch at around -339.067749 1882.976318 797.000000
+119217 patches after subdivision
+94 direct lights
+0...1...2.. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+.3...4...5...6. warning - face vectors parallel to face normal. bad lighting will be produced
+..7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10323204, max 640
+transfer lists:  78.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7997, 10727, 11129)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1689, 2065, 2011)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(414, 476, 487)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(116, 130, 140)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(36, 39, 44)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(12, 13, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 4, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0257 sec>
+0...1...2.. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+.3...4...5...6...7.. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+.8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  25/4096         1200/196608   ( 0.6%) 
+brushes               1072/16384       12864/196608   ( 6.5%) 
+brushsides            9697/163840      77576/1310720  ( 5.9%) 
+planes               11792/65536      235840/1310720  (18.0%) 
+vertexes              9208/65536      110496/786432   (14.1%) 
+nodes                 2744/65536       87808/2097152  ( 4.2%) 
+texinfos              1472/12288      105984/884736   (12.0%) 
+texdata                 42/2048         1344/65536    ( 2.1%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       21707/0           21707/0        ( 0.0%) 
+faces                 5511/65536      308616/3670016  ( 8.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2720/65536      152320/3670016  ( 4.2%) 
+leaves                2770/65536       88640/2097152  ( 4.2%) 
+leaffaces             7585/65536       15170/131072   (11.6%) 
+leafbrushes           4606/65536        9212/131072   ( 7.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            36700/512000     146800/2048000  ( 7.2%) 
+edges                21655/256000      86620/1024000  ( 8.5%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            511/32768        5110/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         11073/65536       22146/131072   (16.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3830488/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       51570/16777216 ( 0.3%) 
+entdata               [variable]      118541/393216   (30.1%) 
+LDR ambient table     2770/65536       11080/262144   ( 4.2%) 
+HDR ambient table     2770/65536       11080/262144   ( 4.2%) 
+LDR leaf ambient      4161/65536      116508/1835008  ( 6.3%) 
+HDR leaf ambient      2770/65536       77560/1835008  ( 4.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1056     ( 0.1%) 
+pakfile               [variable]      176114/0        ( 0.0%) 
+physics               [variable]      540682/4194304  (12.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 15225
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+16 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+5511 faces
+6 degenerate faces
+11430460 square feet [1645986176.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+5505 patches before subdivision
+Zero area child patch at around -167.280884 1629.960449 797.000000
+Zero area child patch at around -152.321457 1633.264648 797.000000
+Zero area child patch at around -294.564667 1650.890625 797.000000
+Zero area child patch at around -339.067749 1882.976318 797.000000
+119217 patches after subdivision
+94 direct lights
+0...1...2.. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+.3...4...5...6. warning - face vectors parallel to face normal. bad lighting will be produced
+..7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10323204, max 640
+transfer lists:  78.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7997, 10727, 11129)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1689, 2065, 2011)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(414, 476, 487)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(116, 130, 140)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(36, 39, 44)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(12, 13, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 4, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0274 sec>
+0...1...2.. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+.3...4...5...6. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+..7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  25/4096         1200/196608   ( 0.6%) 
+brushes               1072/16384       12864/196608   ( 6.5%) 
+brushsides            9697/163840      77576/1310720  ( 5.9%) 
+planes               11792/65536      235840/1310720  (18.0%) 
+vertexes              9208/65536      110496/786432   (14.1%) 
+nodes                 2744/65536       87808/2097152  ( 4.2%) 
+texinfos              1472/12288      105984/884736   (12.0%) 
+texdata                 42/2048         1344/65536    ( 2.1%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       21707/0           21707/0        ( 0.0%) 
+faces                 5511/65536      308616/3670016  ( 8.4%) 
+hdr faces             5511/65536      308616/3670016  ( 8.4%) 
+origfaces             2720/65536      152320/3670016  ( 4.2%) 
+leaves                2770/65536       88640/2097152  ( 4.2%) 
+leaffaces             7585/65536       15170/131072   (11.6%) 
+leafbrushes           4606/65536        9212/131072   ( 7.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            36700/512000     146800/2048000  ( 7.2%) 
+edges                21655/256000      86620/1024000  ( 8.5%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights         94/8192         8272/720896   ( 1.1%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            511/32768        5110/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         11073/65536       22146/131072   (16.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3830488/0        ( 0.0%) 
+HDR lightdata         [variable]     3830488/0        ( 0.0%) 
+visdata               [variable]       51570/16777216 ( 0.3%) 
+entdata               [variable]      118541/393216   (30.1%) 
+LDR ambient table     2770/65536       11080/262144   ( 4.2%) 
+HDR ambient table     2770/65536       11080/262144   ( 4.2%) 
+LDR leaf ambient      4161/65536      116508/1835008  ( 6.3%) 
+HDR leaf ambient      4161/65536      116508/1835008  ( 6.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1056     ( 0.1%) 
+pakfile               [variable]      176114/0        ( 0.0%) 
+physics               [variable]      540682/4194304  (12.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 15225
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+16 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 748 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Brush 919256: WARNING, microbrush
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-0.3 0.2 -15.1)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 976942: 
+
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (540970 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2336 texinfos to 1475
+Reduced 52 texdatas to 42 (1527 bytes to 1159)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+reading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.prt
+ 437 portalclusters
+ 917 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 190965
+Average clusters visible: 436
+Building PAS...
+Average clusters audible: 437
+visdatasize:51570  compressed from 48944
+writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+51 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+5515 faces
+6 degenerate faces
+11430246 square feet [1645955456.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+5509 patches before subdivision
+Zero area child patch at around -167.280884 1629.960449 797.000000
+Zero area child patch at around -152.321457 1633.264648 797.000000
+Zero area child patch at around -294.564667 1650.890625 797.000000
+Zero area child patch at around -339.067749 1882.976318 797.000000
+119095 patches after subdivision
+94 direct lights
+0...1...2.. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+.3...4...5...6. warning - face vectors parallel to face normal. bad lighting will be produced
+..7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10322635, max 640
+transfer lists:  78.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7999, 10730, 11132)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1689, 2065, 2011)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 476, 487)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(116, 130, 140)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(36, 39, 44)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(12, 13, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 4, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0279 sec>
+0...1...2.. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+.3...4...5...6. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+..7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  25/4096         1200/196608   ( 0.6%) 
+brushes               1072/16384       12864/196608   ( 6.5%) 
+brushsides            9703/163840      77624/1310720  ( 5.9%) 
+planes               11838/65536      236760/1310720  (18.1%) 
+vertexes              9209/65536      110508/786432   (14.1%) 
+nodes                 2750/65536       88000/2097152  ( 4.2%) 
+texinfos              1475/12288      106200/884736   (12.0%) 
+texdata                 42/2048         1344/65536    ( 2.1%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       21707/0           21707/0        ( 0.0%) 
+faces                 5515/65536      308840/3670016  ( 8.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2724/65536      152544/3670016  ( 4.2%) 
+leaves                2776/65536       88832/2097152  ( 4.2%) 
+leaffaces             7587/65536       15174/131072   (11.6%) 
+leafbrushes           4604/65536        9208/131072   ( 7.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            36732/512000     146928/2048000  ( 7.2%) 
+edges                21671/256000      86684/1024000  ( 8.5%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            511/32768        5110/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         11073/65536       22146/131072   (16.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3828432/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       51570/16777216 ( 0.3%) 
+entdata               [variable]      118611/393216   (30.2%) 
+LDR ambient table     2776/65536       11104/262144   ( 4.2%) 
+HDR ambient table     2776/65536       11104/262144   ( 4.2%) 
+LDR leaf ambient      4165/65536      116620/1835008  ( 6.4%) 
+HDR leaf ambient      2776/65536       77728/1835008  ( 4.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1056     ( 0.1%) 
+pakfile               [variable]      176114/0        ( 0.0%) 
+physics               [variable]      540970/4194304  (12.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 15233
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+19 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+5515 faces
+6 degenerate faces
+11430246 square feet [1645955456.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+5509 patches before subdivision
+Zero area child patch at around -167.280884 1629.960449 797.000000
+Zero area child patch at around -152.321457 1633.264648 797.000000
+Zero area child patch at around -294.564667 1650.890625 797.000000
+Zero area child patch at around -339.067749 1882.976318 797.000000
+119095 patches after subdivision
+94 direct lights
+0...1...2.. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+.3...4...5...6. warning - face vectors parallel to face normal. bad lighting will be produced
+..7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10322635, max 640
+transfer lists:  78.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7999, 10730, 11132)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1689, 2065, 2011)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 476, 487)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(116, 130, 140)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(36, 39, 44)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(12, 13, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 4, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0288 sec>
+0...1...2.. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+.3...4...5...6. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+..7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  25/4096         1200/196608   ( 0.6%) 
+brushes               1072/16384       12864/196608   ( 6.5%) 
+brushsides            9703/163840      77624/1310720  ( 5.9%) 
+planes               11838/65536      236760/1310720  (18.1%) 
+vertexes              9209/65536      110508/786432   (14.1%) 
+nodes                 2750/65536       88000/2097152  ( 4.2%) 
+texinfos              1475/12288      106200/884736   (12.0%) 
+texdata                 42/2048         1344/65536    ( 2.1%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       21707/0           21707/0        ( 0.0%) 
+faces                 5515/65536      308840/3670016  ( 8.4%) 
+hdr faces             5515/65536      308840/3670016  ( 8.4%) 
+origfaces             2724/65536      152544/3670016  ( 4.2%) 
+leaves                2776/65536       88832/2097152  ( 4.2%) 
+leaffaces             7587/65536       15174/131072   (11.6%) 
+leafbrushes           4604/65536        9208/131072   ( 7.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            36732/512000     146928/2048000  ( 7.2%) 
+edges                21671/256000      86684/1024000  ( 8.5%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights         94/8192         8272/720896   ( 1.1%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            511/32768        5110/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         11073/65536       22146/131072   (16.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3828432/0        ( 0.0%) 
+HDR lightdata         [variable]     3828432/0        ( 0.0%) 
+visdata               [variable]       51570/16777216 ( 0.3%) 
+entdata               [variable]      118611/393216   (30.2%) 
+LDR ambient table     2776/65536       11104/262144   ( 4.2%) 
+HDR ambient table     2776/65536       11104/262144   ( 4.2%) 
+LDR leaf ambient      4165/65536      116620/1835008  ( 6.4%) 
+HDR leaf ambient      4165/65536      116620/1835008  ( 6.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1056     ( 0.1%) 
+pakfile               [variable]      176114/0        ( 0.0%) 
+physics               [variable]      540970/4194304  (12.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 15233
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+19 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "darkling/lamp1_off" not found.
+Material not found!: DARKLING/LAMP1_OFF
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 754 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.prt...Building visibility clusters...
+done (0)
+Brush 919256: WARNING, microbrush
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-0.3 0.2 -15.1)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 976942: 
+
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_borealis01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (540423 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 2330 texinfos to 1471
+Reduced 51 texdatas to 41 (1507 bytes to 1139)
+Writing C:\Users\Asdf\Desktop\gm_sewer_world\gm_sewer_world.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+reading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.prt
+ 419 portalclusters
+ 846 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 175561
+Average clusters visible: 419
+Building PAS...
+Average clusters audible: 419
+visdatasize:47770  compressed from 46928
+writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+15 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+5507 faces
+6 degenerate faces
+11428047 square feet [1645638784.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+5501 patches before subdivision
+Zero area child patch at around -167.280884 1629.960449 797.000000
+Zero area child patch at around -152.321457 1633.264648 797.000000
+Zero area child patch at around -294.564667 1650.890625 797.000000
+Zero area child patch at around -339.067749 1882.976318 797.000000
+118987 patches after subdivision
+94 direct lights
+0.. warning - face vectors parallel to face normal. bad lighting will be produced
+.1...2.. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+.3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10369478, max 640
+transfer lists:  79.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8020, 10763, 11169)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1691, 2068, 2014)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 477, 487)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(116, 130, 140)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(36, 39, 44)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(12, 13, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 4, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0272 sec>
+0.. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+.1...2.. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+.3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  24/4096         1152/196608   ( 0.6%) 
+brushes               1071/16384       12852/196608   ( 6.5%) 
+brushsides            9697/163840      77576/1310720  ( 5.9%) 
+planes               11824/65536      236480/1310720  (18.0%) 
+vertexes              9192/65536      110304/786432   (14.0%) 
+nodes                 2722/65536       87104/2097152  ( 4.2%) 
+texinfos              1471/12288      105912/884736   (12.0%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       21707/0           21707/0        ( 0.0%) 
+faces                 5507/65536      308392/3670016  ( 8.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2717/65536      152152/3670016  ( 4.1%) 
+leaves                2747/65536       87904/2097152  ( 4.2%) 
+leaffaces             7394/65536       14788/131072   (11.3%) 
+leafbrushes           4460/65536        8920/131072   ( 6.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            36673/512000     146692/2048000  ( 7.2%) 
+edges                21599/256000      86396/1024000  ( 8.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            504/32768        5040/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10962/65536       21924/131072   (16.7%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3805664/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       47770/16777216 ( 0.3%) 
+entdata               [variable]      118163/393216   (30.1%) 
+LDR ambient table     2747/65536       10988/262144   ( 4.2%) 
+HDR ambient table     2747/65536       10988/262144   ( 4.2%) 
+LDR leaf ambient      4038/65536      113064/1835008  ( 6.2%) 
+HDR leaf ambient      2747/65536       76916/1835008  ( 4.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1052     ( 0.1%) 
+pakfile               [variable]      176114/0        ( 0.0%) 
+physics               [variable]      540423/4194304  (12.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 15218
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+22 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+PREP OK
+5507 faces
+6 degenerate faces
+11428047 square feet [1645638784.00 square inches]
+6 Displacements
+429 Square Feet [61839.70 Square Inches]
+5501 patches before subdivision
+Zero area child patch at around -167.280884 1629.960449 797.000000
+Zero area child patch at around -152.321457 1633.264648 797.000000
+Zero area child patch at around -294.564667 1650.890625 797.000000
+Zero area child patch at around -339.067749 1882.976318 797.000000
+118987 patches after subdivision
+94 direct lights
+0.. warning - face vectors parallel to face normal. bad lighting will be produced
+.1...2.. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+.3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10369478, max 640
+transfer lists:  79.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8020, 10763, 11169)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1691, 2068, 2014)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(415, 477, 487)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(116, 130, 140)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(36, 39, 44)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(12, 13, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 4, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0284 sec>
+0.. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+SampleRadial: Punting, Waiting for fix
+.1...2.. warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+ warning - face vectors parallel to face normal. bad lighting will be produced
+.3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  24/4096         1152/196608   ( 0.6%) 
+brushes               1071/16384       12852/196608   ( 6.5%) 
+brushsides            9697/163840      77576/1310720  ( 5.9%) 
+planes               11824/65536      236480/1310720  (18.0%) 
+vertexes              9192/65536      110304/786432   (14.0%) 
+nodes                 2722/65536       87104/2097152  ( 4.2%) 
+texinfos              1471/12288      105912/884736   (12.0%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             902/0           18040/0        ( 0.0%) 
+disp_tris             1536/0            3072/0        ( 0.0%) 
+disp_lmsamples       21707/0           21707/0        ( 0.0%) 
+faces                 5507/65536      308392/3670016  ( 8.4%) 
+hdr faces             5507/65536      308392/3670016  ( 8.4%) 
+origfaces             2717/65536      152152/3670016  ( 4.1%) 
+leaves                2747/65536       87904/2097152  ( 4.2%) 
+leaffaces             7394/65536       14788/131072   (11.3%) 
+leafbrushes           4460/65536        8920/131072   ( 6.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            36673/512000     146692/2048000  ( 7.2%) 
+edges                21599/256000      86396/1024000  ( 8.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights         94/8192         8272/720896   ( 1.1%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            504/32768        5040/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10962/65536       21924/131072   (16.7%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     3805664/0        ( 0.0%) 
+HDR lightdata         [variable]     3805664/0        ( 0.0%) 
+visdata               [variable]       47770/16777216 ( 0.3%) 
+entdata               [variable]      118163/393216   (30.1%) 
+LDR ambient table     2747/65536       10988/262144   ( 4.2%) 
+HDR ambient table     2747/65536       10988/262144   ( 4.2%) 
+LDR leaf ambient      4038/65536      113064/1835008  ( 6.2%) 
+HDR leaf ambient      4038/65536      113064/1835008  ( 6.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1052     ( 0.1%) 
+pakfile               [variable]      176114/0        ( 0.0%) 
+physics               [variable]      540423/4194304  (12.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 15218
+Writing c:\users\asdf\desktop\gm_sewer_world\gm_sewer_world.bsp
+22 seconds elapsed
